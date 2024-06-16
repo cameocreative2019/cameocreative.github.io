@@ -12,6 +12,12 @@
             box-sizing: border-box;
         }
 
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
         header {
             background-color: #f8f8f8;
             padding: 20px;
@@ -33,7 +39,7 @@
             display: grid;
             grid-template-columns: 1fr;
             gap: 20px;
-            padding: 20px;
+            padding: 20px 0;
         }
 
         .video {
@@ -57,26 +63,28 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Video Showcase</h1>
-        <p>Contact: email@example.com | Phone: (123) 456-7890</p>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Video Showcase</h1>
+            <p>Contact: email@example.com | Phone: (123) 456-7890</p>
+        </header>
 
-    <div class="video-container">
-        <div class="video">
-            <iframe src="https://player.vimeo.com/video/957725429?h=4b8a09c457&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Haileybury Studio Demo"></iframe>
-        </div>
+        <div class="video-container">
+            <div class="video">
+                <iframe src="https://player.vimeo.com/video/957725429?h=4b8a09c457&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Haileybury Studio Demo"></iframe>
+            </div>
 
-        <div class="video">
-            <iframe src="https://player.vimeo.com/video/957727016?h=df7fe527a4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Videography Showreel"></iframe>
-        </div>
+            <div class="video">
+                <iframe src="https://player.vimeo.com/video/957727016?h=df7fe527a4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Videography Showreel"></iframe>
+            </div>
 
-        <div class="video">
-            <iframe src="https://player.vimeo.com/video/957722422?h=e2848295c9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Virtual Production Tests"></iframe>
-        </div>
+            <div class="video">
+                <iframe src="https://player.vimeo.com/video/957722422?h=e2848295c9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Virtual Production Tests"></iframe>
+            </div>
 
-        <div class="video">
-            <iframe src="https://player.vimeo.com/video/957729283?h=c6e1b7c801&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Cinematography Showreel"></iframe>
+            <div class="video">
+                <iframe src="https://player.vimeo.com/video/957729283?h=c6e1b7c801&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Cinematography Showreel"></iframe>
+            </div>
         </div>
     </div>
 </body>
